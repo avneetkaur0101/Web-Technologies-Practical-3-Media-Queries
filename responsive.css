@@ -1,0 +1,65 @@
+.name.of.the.Responsive.Page
+{ 
+   background-image: url(homer.jpg) ;
+   height: 625px;
+   width: 625px;
+   position: fixed;
+}
+
+@media only screen and (min-width: 1601px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 312.5px 312.5px 0) ;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 625px 312.5px 312.5px) ;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(312.5px 312.5px 625px 0) ;
+    }
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(312.5px 625px 625px 312.5px) ;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(312.5px 312.5px 625px 0) ;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 625px 312.5px 312.5px) ;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 312.5px 312.5px 0) ;
+    }
+}

@@ -1,0 +1,87 @@
+.name.of.the.Responsive.Page
+{
+    background-image: url(software.png);
+    height: 480px;
+    width: 640px;
+    position: fixed;
+}
+
+@media only screen and (min-width: 1201px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 128px 240px 0);
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 256px 240px 128px);
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 384px 240px 256px);
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 512px 240px 384px);
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(0 640px 240px 512px);
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(240px 128px 480px 0);
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 700px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(240px 256px 480px 128px);
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(240px 384px 480px 256px);
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(240px 512px 480px 384px);
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .name.of.the.Responsive.Page
+    {
+        clip: rect(240px 640px 480px 512px);
+    }
+}
